@@ -1,0 +1,15 @@
+{
+  "name": "near-tokens",
+  "version": "1.0.0",
+  "description": "NEP-141 tokens on NEAR",
+  "repository": "https://github.com/depocket/near-tokens",
+  "author": "Himitsuko <84968244+himitsuko@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "image-data-uri": "^2.0.1"
+  },
+  "scripts": {
+    "parse:tokens": "node ./scripts/parseIcon.js"
+  }
+}
